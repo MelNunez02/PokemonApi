@@ -74,6 +74,7 @@ dependencies {
 
     // Coil for image loading
     implementation("io.coil-kt:coil:1.4.0")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
 
     // Testing libraries
     testImplementation("junit:junit:4.13.2")
