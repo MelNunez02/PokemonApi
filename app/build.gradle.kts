@@ -62,6 +62,9 @@ dependencies {
     // AppCompat for AppCompatActivity
     implementation("androidx.appcompat:appcompat:1.6.1")
 
+    // Material Components library for theme support
+    implementation("com.google.android.material:material:1.9.0")
+
     // Compose libraries
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
     implementation("androidx.compose.ui:ui")
@@ -69,11 +72,11 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
 
-    // OkHttp for network requests
-    implementation("com.squareup.okhttp3:okhttp:4.9.1")
+    // OkHttp for network requests (latest stable)
+    implementation("com.squareup.okhttp3:okhttp:4.10.0")
 
-    // Coil for image loading
-    implementation("io.coil-kt:coil:1.4.0")
+    // Coil for image loading (latest stable)
+    implementation("io.coil-kt:coil:2.2.2")
     implementation("androidx.recyclerview:recyclerview:1.3.2")
 
     // Testing libraries
